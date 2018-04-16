@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  imageresizewebapp:
+    image: imageresizewebapp
+    build:
+      context: .
+      dockerfile: ImageResizeWebApp/Dockerfile
